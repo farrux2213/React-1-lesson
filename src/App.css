@@ -123,3 +123,20 @@
   padding-top: 3px;
 }
 /*end hero area!!!!!!!!!!!!!!!!!!!!!!!*/
+.clour {
+  width: 100%;
+  height: 900px;
+  background-color: aquamarine;
+}
+.clour h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 57.2px;
+  text-align: center;
+  width: 508px;
+  height: 101px;
+  margin: auto;
+  position: relative;
+  top: 80px;
+}

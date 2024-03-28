@@ -9,6 +9,8 @@ import shopicon from "/shop.svg";
 import usericon from "/user.svg";
 import quloqchinred from "/quloqchinred.svg";
 import lineprice from "/lineprice.svg";
+import left from "/left.svg";
+import right from "/right.svg";
 class Figma extends Component {
   render() {
     return (
@@ -69,6 +71,20 @@ class Figma extends Component {
               <div>
                 <h1>BUY NOW</h1>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="clour">
+          <h1>Our Latest colour collection 2021</h1>
+          <div className="clourBottom">
+            <div className="left">
+              <img src={left} />
+            </div>
+            <div className="sony1"></div>
+            <div className="sony2"></div>
+            <div className="sony3"></div>
+            <div className="right">
+              <img src={right} />
             </div>
           </div>
         </div>
