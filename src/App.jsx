@@ -14,6 +14,16 @@ import right from "/right.svg";
 import leftimg from "/leftimg.svg";
 import middleimg from "/middle.svg";
 import rightimg from "/rightimg.svg";
+import featureimg from "/feature.svg";
+import iconbbm from "/iconbbm.svg";
+import iconbbmbottom from "/iconbbmbottom.svg";
+import iconbbmin from "/iconbbmin.svg";
+import baterryicon from "/baterryicon.svg";
+import bluetoothicon from "/bluetoothicon.svg";
+import microphoneicon from "/microphoneicon.svg";
+import notalar from "/notalar.svg";
+import ovozicon1 from "/ovozicon1.svg";
+import ovozicon2 from "/ovozicon2.svg";
 
 class Figma extends Component {
   render() {
@@ -98,7 +108,60 @@ class Figma extends Component {
             </div>
           </div>
         </div>
-        <div className="feature"></div>
+        <div className="feature">
+          <div className="featureLeft">
+            <div className="featureText">
+              <h1>Good headphones and loud music is all you need</h1>
+            </div>
+            <div className="bbm">
+              <div className="baterry">
+                <div className="baterryIcon">
+                  <img src={iconbbm} />
+                  <img src={iconbbmbottom} id="f1" />
+                  <img src={iconbbmin} id="f2" />
+                  <img src={baterryicon} id="f3" />
+                </div>
+                <div className="baterryText">
+                  <p className="baterryText1">Battery</p>
+                  <p className="baterryText2">Battery 6.2V-AAC codec</p>
+                  <p className="baterryText3">Lern More</p>
+                </div>
+              </div>
+              <div className="bluetooth">
+                <div className="bluetoothIcon">
+                  <img src={iconbbm} />
+                  <img src={iconbbmbottom} id="f1" />
+                  <img src={iconbbmin} id="f2" />
+                  <img src={bluetoothicon} id="f3" />
+                </div>
+                <div className="bluetoothText">
+                  <p className="baterryText1">Bluetooth</p>
+                  <p className="baterryText2">Battery 6.2V-AAC codec</p>
+                  <p className="baterryText3">Lern More</p>
+                </div>
+              </div>
+              <div className="microphone">
+                <div className="microphoneIcon">
+                  <img src={iconbbm} />
+                  <img src={iconbbmbottom} id="f1" />
+                  <img src={iconbbmin} id="f2" />
+                  <img src={microphoneicon} id="f3" />
+                </div>
+                <div className="microphoneText">
+                  <p className="baterryText1">Microphone</p>
+                  <p className="baterryText2">Battery 6.2V-AAC codec</p>
+                  <p className="baterryText3">Lern More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="featureRight">
+            <img src={featureimg} id="f4" />
+            <img src={notalar} id="notalar" />
+            <img src={ovozicon1} id="f5" />
+            <img src={ovozicon2} id="f6" />
+          </div>
+        </div>
       </div>
     );
   }
