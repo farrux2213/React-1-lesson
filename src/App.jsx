@@ -24,6 +24,16 @@ import microphoneicon from "/microphoneicon.svg";
 import notalar from "/notalar.svg";
 import ovozicon1 from "/ovozicon1.svg";
 import ovozicon2 from "/ovozicon2.svg";
+import backred from "/backred.svg";
+import backblue from "/backblue.svg";
+import backgreen from "/backgreen.svg";
+import boxingimg from "/boxingimg.svg";
+import noname from "/noname1.svg";
+import line1 from "/line1.svg";
+import noname2 from "/noname2.svg";
+import noname3 from "/noname3.svg";
+import noname4 from "/noname4.svg";
+import vektor from "/vektor.svg";
 
 class Figma extends Component {
   render() {
@@ -160,6 +170,51 @@ class Figma extends Component {
             <img src={notalar} id="notalar" />
             <img src={ovozicon1} id="f5" />
             <img src={ovozicon2} id="f6" />
+          </div>
+        </div>
+        <div className="product">
+          <h1>Our Latest Product</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            facilisis nunc ipsum aliquam, ante.{" "}
+          </p>
+          <div className="rbg">
+            <div className="redHearphone">
+              <div className="redHearphone1">
+                <img src={backred} id="f7" />
+              </div>
+              <div className="redHearphone2"></div>
+            </div>
+            <div className="blueHearphone">
+              <div className="blueHearphone1">
+                <img src={backblue} />
+              </div>
+              <div className="blueHearphone2"></div>
+            </div>
+            <div className="greenHearphone">
+              <div className="greenHearphone1">
+                <img src={backgreen} />
+              </div>
+              <div className="greenHearphone2"></div>
+            </div>
+          </div>
+        </div>
+        <div className="boxing">
+          <div className="boxingLeft">
+            <img src={boxingimg} />
+          </div>
+          <div className="boxingRight">
+            <h1>Whatever you get in the box</h1>
+            <div id="kategoriya">
+              <img src={noname} id="f7" />
+              <img src={line1} />
+              <img src={noname2} id="f8" />
+              <img src={vektor} id="vektor" />
+              <img src={line1} />
+              <img src={noname3} id="f9" />
+              <img src={line1} />
+              <img src={noname4} id="f10" />
+            </div>
           </div>
         </div>
       </div>

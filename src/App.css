@@ -293,3 +293,86 @@
   top: -24px;
 }
 /* end feature !!!!!!!!!!!!!!!!!!!!!!! */
+.product {
+  width: 80%;
+  height: 850px;
+  background-color: moccasin;
+  margin: auto;
+}
+.product h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57.2px;
+  text-align: center;
+}
+.product p {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: auto;
+  text-align: center;
+  width: 557px;
+  height: 48px;
+}
+.rbg {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+.redHearphone1 img {
+  clip-path: polygon(0 0, 44px 44px, 100% 100%, 0 100%);
+}
+/* ?????????????????????????????????????????????????????? */
+
+.boxing {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  position: relative;
+  top: 100px;
+  height: 900px;
+  margin: auto;
+}
+.boxingRight h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57.2px;
+  text-align: left;
+}
+#kategoriya {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#f7 {
+  width: 150px;
+  height: 31px;
+}
+#f8 {
+  width: 150px;
+  height: 31px;
+}
+#f9 {
+  width: 150px;
+  height: 31px;
+}
+#f10 {
+  width: 150px;
+  height: 34px;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.8px;
+  text-align: left;
+}
+#vektor {
+  width: 8px;
+  height: 4px;
+  position: relative;
+  top: -37px;
+  left: 3.5px;
+}
