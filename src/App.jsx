@@ -11,6 +11,10 @@ import quloqchinred from "/quloqchinred.svg";
 import lineprice from "/lineprice.svg";
 import left from "/left.svg";
 import right from "/right.svg";
+import leftimg from "/leftimg.svg";
+import middleimg from "/middle.svg";
+import rightimg from "/rightimg.svg";
+
 class Figma extends Component {
   render() {
     return (
@@ -80,14 +84,21 @@ class Figma extends Component {
             <div className="left">
               <img src={left} />
             </div>
-            <div className="sony1"></div>
-            <div className="sony2"></div>
-            <div className="sony3"></div>
+            <div className="sony1">
+              <img src={leftimg} />
+            </div>
+            <div className="sony2">
+              <img src={middleimg} />
+            </div>
+            <div className="sony3">
+              <img src={rightimg} />
+            </div>
             <div className="right">
               <img src={right} />
             </div>
           </div>
         </div>
+        <div className="feature"></div>
       </div>
     );
   }
