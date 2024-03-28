@@ -1,19 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 .Hero-area {
   width: 100%;
   height: 850px;
   gap: 0px;
   opacity: 0px;
-  background: linear-gradient(74.79deg, #ff9292 -7.33%, #de5150 90.21%);
+  background-image: url("./Background.png");
 }
 .Navegation {
-  position: absolute;
-  width: 1145.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 30px;
+  width: 80%;
   height: 66px;
-  top: 34px;
-  left: 237px;
-  gap: 0px;
-  opacity: 0px;
-
   margin: auto;
 }
 .b-icon img {
@@ -25,3 +25,101 @@
   opacity: 0px;
   color: white;
 }
+.s-p-u {
+  display: flex;
+  gap: 35px;
+}
+.srcicon {
+  position: relative;
+  top: -15px;
+  right: 34px;
+}
+.shopicon {
+  position: relative;
+  top: -15px;
+  right: 34px;
+}
+.usericon {
+  position: relative;
+  top: -15px;
+  right: 32px;
+}
+.quloqchinred {
+  width: 1319px;
+  height: 550px;
+}
+.quloqchinNarxi {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 70px;
+  /* gap: 100px; */
+}
+.imgquloqchin img {
+  width: 800px;
+  height: 700px;
+}
+.feel h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  color: white;
+  position: relative;
+  top: 44px;
+  left: 5px;
+  /* font-weight: 500;
+  line-height: 30.8px;
+  letter-spacing: 0.1em;
+  text-align: left; */
+}
+.music h1 {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 99.17px;
+  text-align: left;
+  width: 517px;
+  height: 282px;
+}
+.price {
+  display: flex;
+  gap: 27px;
+}
+.now-price h1 {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57.2px;
+  text-align: left;
+}
+.sh1 h1 {
+  position: relative;
+  top: 15px;
+  font-family: "Rubik", sans-serif;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 43.4px;
+  text-align: left;
+  color: rgb(80, 71, 71);
+}
+.lineprice img {
+  position: relative;
+  top: 23px;
+}
+.buy div {
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+}
+.buy div h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 43.4px;
+  text-align: center;
+  color: rgb(207, 56, 56);
+  padding-top: 3px;
+}
+/* end hero area!!!!!!!!!!!!!!!!!!!!!!! */

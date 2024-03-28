@@ -1,2 +1,0 @@
-<img src={process.env.PUBLIC_URL + '/favpng_beats-electronics-logo-negative-space.jpg'} alt="Beats Electronics Logo" />
- 
