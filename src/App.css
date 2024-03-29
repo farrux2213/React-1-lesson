@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.all {
+  width: 100%;
+}
 .Hero-area {
   width: 100%;
   height: 850px;
@@ -294,10 +298,10 @@
 }
 /* end feature !!!!!!!!!!!!!!!!!!!!!!! */
 .product {
-  width: 80%;
+  width: 85%;
   height: 850px;
-  background-color: moccasin;
   margin: auto;
+  /* background-color: #ff4948; */
 }
 .product h1 {
   font-family: "Rubik", sans-serif;
@@ -322,18 +326,117 @@
   justify-content: space-between;
   margin-top: 110px;
 }
-.redHearphone1 img {
-  clip-path: polygon(0 0, 44px 44px, 100% 100%, 0 100%);
+.four50 {
+  font-family: "Rubik", sans-serif;
+  width: 20px;
+  height: 10px;
+  position: relative;
+  top: -367px;
+  left: 291px;
 }
-/* ?????????????????????????????????????????????????????? */
+.dollor1 {
+  font-family: "Rubik", sans-serif;
+  width: 29px;
+  height: 20px;
+  position: relative;
+  top: -337px;
+  left: 287px;
+}
+.dollor2 {
+  font-family: "Rubik", sans-serif;
+  width: 29px;
+  height: 20px;
+  position: relative;
+  top: -331px;
+  left: 287px;
+}
+.dollor3 {
+  font-family: "Rubik", sans-serif;
+  width: 29px;
+  height: 20px;
+  position: relative;
+  top: -337px;
+  left: 287px;
+}
+.nomired {
+  font-family: "Rubik", sans-serif;
+  position: relative;
+  top: -355px;
+  width: 150px;
+  height: 50px;
+}
+.nomiblue {
+  font-family: "Rubik", sans-serif;
+  position: relative;
+  top: -350px;
+  width: 150px;
+  height: 50px;
+}
+.nomigreen {
+  font-family: "Rubik", sans-serif;
+  position: relative;
+  top: -355px;
+  width: 150px;
+  height: 50px;
+}
+#backredshop {
+  position: relative;
+  top: -650px;
+  left: 33px;
+}
+#backblueshop {
+  position: relative;
+  top: -648px;
+  left: 27px;
+}
+#backgreenshop {
+  position: relative;
+  top: -657px;
+  left: 16px;
+}
+#redsony {
+  position: relative;
+  top: -387px;
+  left: 20px;
+}
+#bluesony {
+  position: relative;
+  top: -387px;
+  left: 20px;
+}
+#greensony {
+  position: relative;
+  top: -387px;
+  left: 20px;
+}
+#iconshop1 {
+  position: relative;
+  top: -675px;
+  left: -20px;
+}
+#iconshop2 {
+  position: relative;
+  top: -672px;
+  left: -26px;
+}
+#iconshop3 {
+  position: relative;
+  top: -680px;
+  left: -37px;
+}
+.starred {
+  position: relative;
+  top: -340px;
+}
+
+/* end product area */
 
 .boxing {
   display: flex;
   justify-content: space-between;
   width: 80%;
   position: relative;
-  top: 100px;
-  height: 900px;
+  height: 700px;
   margin: auto;
 }
 .boxingRight h1 {
@@ -348,31 +451,55 @@
   flex-direction: column;
   gap: 20px;
 }
-#f7 {
-  width: 150px;
-  height: 31px;
-}
-#f8 {
-  width: 150px;
-  height: 31px;
-}
-#f9 {
-  width: 150px;
-  height: 31px;
-}
-#f10 {
-  width: 150px;
-  height: 34px;
-
+.slow1text {
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 30.8px;
   text-align: left;
-}
-#vektor {
-  width: 8px;
-  height: 4px;
   position: relative;
-  top: -37px;
-  left: 3.5px;
+  top: -3px;
 }
+.slow1,
+.slow3,
+.slow5,
+.slow7 {
+  display: flex;
+  gap: 17px;
+}
+/* end boxing area !!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+.mainCta {
+  width: 85%;
+  height: 333px;
+  margin: auto;
+}
+.ctaimg {
+  position: absolute;
+  width: 712px;
+  height: 292px;
+  top: 4049px;
+  left: 402px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px;
+}
+.orqafonnota {
+  position: relative;
+}
+.email {
+  position: relative;
+  left: 387px;
+  top: -230px;
+}
+/* end mainCta area !!!!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+/* .end {
+  width: 100%;
+  height: 200px;
+} */
+/* .featureEnd {
+  display: flex;
+  margin-top: 82px;
+  width: 100%;
+  height: 200px;
+} */
+/* end end area !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
