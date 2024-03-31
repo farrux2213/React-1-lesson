@@ -41,7 +41,7 @@ import nameline from "/nameline.svg";
 import ctaimg from "/ctaimg.svg";
 import orqafonnota from "/orqafonnota.svg";
 import email from "/email.svg";
-import end from "/end.svg";
+import iconnn from "/iconnn.svg";
 import musicnota from "/musicnota.svg";
 
 class Figma extends Component {
@@ -291,12 +291,51 @@ class Figma extends Component {
           </div>
           <img src={email} className="email" />
         </div>
-        <div className="featureEnd">
-          <div className="end">
-            <img src={end} />
+        <div className="futear">
+          <div className="i-t-a">
+            <div className="iconnn">
+              <img src={iconnn} />
+            </div>
+            <div className="texxxt">
+              <div className="texxxt1">
+                <p>Home</p>
+              </div>
+              <div className="texxxt2">
+                <p>About</p>
+              </div>
+              <div className="texxxt3">
+                {" "}
+                <p>Product</p>
+              </div>
+            </div>
+            <div className="appsss">
+              <div className="instagram">
+                <img
+                  src={
+                    "https://static.insales-cdn.com/files/1/3582/25718270/original/1619185157_30-phonoteka_org-p-znachok-instagramm-bez-fona-33.png"
+                  }
+                  alt="icon-instagram"
+                />
+              </div>
+              <div className="twitter">
+                <img
+                  src={
+                    "https://www.pinclipart.com/picdir/big/537-5373700_social-media-computer-icons-logo-clip-art-twitter.png"
+                  }
+                  alt="icon-twitter"
+                />
+              </div>
+              <div className="facebook">
+                <img
+                  src={
+                    "https://espicture.ru/800/600/https/www.pinclipart.com/picdir/big/534-5340934_com-facebook-icon-white-png-80848-free-facebook.png"
+                  }
+                  alt="icon-facebook"
+                />
+              </div>
+            </div>
           </div>
         </div>
-        {/* <div className="div">131</div> */}
       </div>
     );
   }
