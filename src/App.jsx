@@ -42,6 +42,7 @@ import ctaimg from "/ctaimg.svg";
 import orqafonnota from "/orqafonnota.svg";
 import email from "/email.svg";
 import end from "/end.svg";
+import musicnota from "/musicnota.svg";
 
 class Figma extends Component {
   render() {
@@ -78,6 +79,7 @@ class Figma extends Component {
         <div className="quloqchinNarxi">
           <div className="imgquloqchin">
             <img src={quloqchinred} className="quloqchinred" />
+            <img src={musicnota} className="musicnota" />
           </div>
           <div className="sotibolish">
             <div className="feel">
@@ -294,6 +296,7 @@ class Figma extends Component {
             <img src={end} />
           </div>
         </div>
+        {/* <div className="div">131</div> */}
       </div>
     );
   }
