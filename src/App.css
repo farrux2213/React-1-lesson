@@ -138,6 +138,11 @@ body {
 .clour {
   width: 100%;
   height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
 }
 .clour h1 {
   font-family: "Rubik", sans-serif;
