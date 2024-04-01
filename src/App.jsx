@@ -328,7 +328,7 @@ class Figma extends Component {
               <div className="facebook">
                 <img
                   src={
-                    "https://espicture.ru/800/600/https/www.pinclipart.com/picdir/big/534-5340934_com-facebook-icon-white-png-80848-free-facebook.png"
+                    "https://static.wixstatic.com/media/eebeaf_5121131bb26e49df860c93835d4661f5~mv2.gif"
                   }
                   alt="icon-facebook"
                 />
